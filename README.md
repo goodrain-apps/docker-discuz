@@ -1,6 +1,6 @@
 # docker-discuz
 
-`discuz`是一款社区论坛系统，将`discuz`做成容器化并发布到好雨云市需要注意以下的几个问题：
+`discuz`是一款社区论坛系统，我们将服务做成容器化，使用户可以在[好雨云市](http://app.goodrain.com/detail/78/)中一点即用，将`discuz`做成容器化并发布到好雨云市需要注意以下的几个问题：
 
 1、好雨默认的数据持久化目录是`/data`，在`Dockerfile`中亦可将挂载目录直接写成`/data`
 
